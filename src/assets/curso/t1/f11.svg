@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="258" viewBox="0 0 400 258">
+  <g id="Grupo_102522" data-name="Grupo 102522" transform="translate(-915 -4394)">
+    <g id="Grupo_90484" data-name="Grupo 90484">
+      <rect id="Rectángulo_34071" data-name="Rectángulo 34071" width="400" height="258" transform="translate(915 4394)" fill="#36a3f7" opacity="0.092"/>
+      <g id="Grupo_90483" data-name="Grupo 90483" transform="translate(933.182 4414.91)">
+        <line id="Línea_148" data-name="Línea 148" y2="191.527" transform="translate(17.211 4.467)" fill="none" stroke="#636363" stroke-linecap="round" stroke-width="1"/>
+        <line id="Línea_149" data-name="Línea 149" x1="313.327" transform="translate(17.211 195.994)" fill="none" stroke="#636363" stroke-linecap="round" stroke-width="1"/>
+        <line id="Línea_150" data-name="Línea 150" x1="313.327" transform="translate(17.211 126.268)" fill="none" stroke="#36a3f7" stroke-width="1"/>
+        <path id="Polígono_4" data-name="Polígono 4" d="M3,0,6,5H0Z" transform="translate(14.818 0.09)" fill="#636363"/>
+        <path id="Polígono_5" data-name="Polígono 5" d="M3.089,0,6.178,6.178H0Z" transform="matrix(0.035, 0.999, -0.999, 0.035, 336.166, 192.799)" fill="#636363"/>
+        <text id="_" data-name="$" transform="translate(-0.182 5.09)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">$</tspan></text>
+        <text id="VOLUMEN" transform="translate(276.818 199.09)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">VOLUMEN</tspan></text>
+        <text id="COSTO_FIJO" data-name="COSTO FIJO" transform="translate(222.818 106.09)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">COSTO FIJO</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
