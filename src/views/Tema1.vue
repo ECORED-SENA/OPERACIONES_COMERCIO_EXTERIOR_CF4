@@ -17,13 +17,13 @@
           p.mb-0 La administración empresarial en tiempos modernos, puede ser vista por muchos como un verdadero arte empresarial, pues los empresarios a diario se ven confrontados por diferentes situaciones que los llevan a tomar decisiones cruciales para el bienestar y buen funcionamiento de la organización, entre estas decisiones, hay una que se enfoca en los temas referentes a los costos y estos básicamente son identificados como aquellos egresos que requiere una empresa para la producción, comercialización o prestación de un servicio; son aquellos desembolsos que toda organización debe realizar para poder operar de manera ordinaria; los costos en su esencia se componen de tres elementos claves, denominados “elementos del costo”, estos son:
         ul.lista-ul
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Materiales directos o materias primas
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Mano de obra directa
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Los CIF, o costos indirectos de fabricación
         p Para tener plena claridad de cada uno de los elementos del costo, se dan las siguientes definiciones de cada uno de estos elementos:
     LineaTiempoD.color-primario.mb-5
@@ -52,13 +52,13 @@
           p Ejemplos de mano de obra directa:
           ul.lista-ul
             li 
-              i.fas.fa-check
+              i.fas.fa-check.cs
               | Sector: confecciones
             li 
-              i.fas.fa-check
+              i.fas.fa-check.cs
               | Producto final: camisas para hombre
             li 
-              i.fas.fa-check
+              i.fas.fa-check.cs
               | Mano de obra directa:  operario de maquina plana, operario de plancha, operario de fileteadora, etc.
         .col-md-4(data-aos='fade-left')
           img(src='@/assets/curso/t1/f3.svg' alt='imagen relacionada').mb-4
@@ -90,13 +90,13 @@
         p Existen otros egresos que no hacen parte del proceso productivo de la empresa, pero que al igual que los CIF, son fundamentales para el funcionamiento de la misma, estos egresos se denominan los gastos y están relacionados con los procesos administrativos, de marketing, ventas y publicidad. Un ejemplo de gastos es:
         ul.lista-ul
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Desembolsos para pago de comisiones de ventas
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Egresos para pago de publicidad
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Pago de nómina de personal administrativo
         p Los costos hacen parte de lo que se denomina la contabilidad administrativa y dentro de esta se puede encontrar la contabilidad de costos, la cual ayuda a los empresarios en los procesos de toma de decisiones; decisiones que van desde la identificación de la base para proyectar el precio de venta de un producto en el mercado, hasta la identificación de nuevos proveedores que se ajusten a las políticas de la empresa y los requerimientos del mercado. Es por ello que tener en la empresa un adecuado sistema de costos, se convierte en la mejor herramienta para apoyar los procesos de toma de decisiones empresariales.
     p.mb-5 Para el manejo acertado de los costos empresariales, se ha identificado una clasificación según el volumen de producción, la cual queda definida de la siguiente manera:
@@ -121,7 +121,7 @@
     p.mb-5 A continuación, encontrará una breve explicación de cada uno de ellos:
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Costos fijos" :icono="require('@/assets/curso/t1/f7.svg')")
-        .row
+        .row.align-items-center
           .col-lg-7
             p Son costos que no varían con los cambios en el volumen de las ventas o con el nivel de producción, los costos fijos se causan efectúese o no la producción o la venta o se realice o no la actividad económica de la empresa. 
             p La compresión del costo fijo, se grafica con una línea horizontal en un plano cartesiano.
@@ -130,7 +130,7 @@
               h4.mb-4 Representación cartesiana del costo fijo
               img(src='@/assets/curso/t1/f11.svg' alt='Representación cartesiana del costo fijo').mb-4
       .py-4.py-md-5(titulo="Costos variables" :icono="require('@/assets/curso/t1/f8.svg')")
-        .row
+        .row.align-items-center
           .col-lg-7
             p Esta clasificación de los costos se reconocen como tal porque son costos que varían en proporción al volumen de las ventas o al nivel de la actividad productiva de la empresa, es decir que, si la producción se incrementa, el costo variable igualmente aumentará.
             p Ejemplo:
@@ -141,7 +141,7 @@
               h4.mb-4  Representación cartesiana del costo variable
               img(src='@/assets/curso/t1/f12.svg' alt='Representación cartesiana del costo variable').mb-4
       .py-4.py-md-5(titulo="Costo total de la producción" :icono="require('@/assets/curso/t1/f9.svg')")
-        .row
+        .row.align-items-center
           .col-lg-7
             p Se entiende como la sumatoria de todos los costos requeridos para obtener un producto. El costo total de producción se estima como el costo fijo, más el costo variable, por las cantidades producidas.
             p Fórmula del costo total de producción:
@@ -149,7 +149,7 @@
           .col-lg-5(data-aos='fade-left')
             img(src='@/assets/curso/t1/f13.svg' alt='imagen relacionada').mb-4
       .py-4.py-md-5(titulo="Costos controlables" :icono="require('@/assets/curso/t1/f10.svg')")
-        .row
+        .row.align-items-center
           .col-lg-7
             p Son todos aquellos egresos que se requieren para la producción de un bien o prestación de un servicio y que dependen de la capacidad administrativa para su buen comportamiento en la producción, las personas de la organización tienen impacto sobre ellos y sus decisiones afectan a los mismos. Un ejemplo de estos costos son los costos directos.
             .cajon.color-acento-contenido.p-4.mb-4
@@ -180,14 +180,14 @@
           .col-lg-5.mb-4
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/t1/f16.svg' alt='AvatarTop')
-              .tarjeta.color-primario.fucsia
+              .bordeSuperior.cac.fblanco.bg-tarjetas2
                 .p-4.text-center
                   h3 Costeo basado en órdenes de producción
                   p El sistema de costos basado en las órdenes de producción, es aquel que se desarrolla con base en la producción de lotes o prestación definida de un servicio a corto plazo, como lo son los procesos de investigación de mercado. Este sistema de costos es recomendado para aquellas empresas cuya dinámica se base en la subcontratación de pequeños lotes de mercancía o las órdenes de producción; es decir, un taller pequeño de confecciones que vende a través de operaciones de maquila, puede hacer un costeo de un lote basado en la orden de producción recibida, la clave del éxito en este sistema, es conocer perfectamente el costo unitario de cada producto.
           .col-lg-5.mb-4
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/t1/f17.svg' alt='AvatarTop')
-              .tarjeta.color-primario.fucsia
+              .bordeSuperior.cac.fblanco.bg-tarjetas2
                 .p-4.text-center
                   h3 Costos por procesos
                   p Este sistema de costos se centra más en el proceso productivo, busca atender la demanda masiva de los bienes en el mercado y son más utilizados por las grandes empresas cuyo mercado objetivo es de consumo masivo.
@@ -205,83 +205,96 @@
         p Ahora bien, en las operaciones de comercio internacional, la logística conserva su esencia; es decir, busca exactamente lo mismo que en el mercado local, regional o nacional, pero su nivel de complejidad es más amplio y para su correcta administración, se hace necesario estudiarla desde tres fases: 
         ul.lista-ul
           li
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Costos país de origen
           li
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Costos del tránsito internacional
           li
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-5
             | Costos país de destino
         p Cada una de estas fases o etapas, tiene una serie de variables que en su conjunto conforman toda la Cadena de Distribución Física Internacional.
         p Ahora se podrá observar las etapas mínimas a tener presente en cada uno de los eslabones de la Cadena de Distribución Física Internacional y que deben de ser identificadas en los procesos de importación y de exportación que la organización realice, a fin no solo de tener el producto a tiempo en el lugar de destino sino que además este estará en las condiciones óptimas para su comercialización y consumo, permitiendo también a la empresa un correcto uso del diseño, ejecución y control de los presupuestos.
     .cajon.color-primario.p-4.mb-4
       p.mb-0 En la Cadena de Distribución Física Internacional, no solo se pueden ver los diferentes egresos relativos a los procesos logísticos internacionales, también se puede amparar en los términos de negociación internacional para definir las responsabilidades de las partes, es decir que el correcto manejo de la CDFI, no solo da claridad en materia de costos, también da claridad en materia de responsabilidades y transferencias de estas responsabilidades entre las partes.
     p.mb-5 Como se indicaba antes, cada una de las fases o etapas involucradas en las operaciones de comercio internacional, conllevan un grado de complejidad, tal como podemos ver a continuación:
-    .row.mb-5
+    .row.mb-5#fases
       .col-lg-8(data-aos='fade-right')
         img(src='@/assets/curso/t1/f19.svg' alt='Imagen relacionada')
       .col-lg-4
-        .himg1
-          h1.cs30 01
-          h4 Fase 1. Costos país de origen
-        .himg1
-          h1.cs30 02
-          h4 Fase 2. Costos tránsito internacional
-        .himg1
-          h1.cs30 03
-          h4 Fase 3. Costos país de destino
-    h3 Fase 1. Costos país de origen
+        a(:href="obtenerLink('#/curso/tema1/#fase1')")
+          .himg1.p-4
+            h1.mb-5 01
+            h4 Fase 1. Costos país de origen
+        a(:href="obtenerLink('#/curso/tema1/#fase2')")
+          .himg1.p-4
+            h1.mb-5 02
+            h4 Fase 2. Costos tránsito internacional
+        a(:href="obtenerLink('#/curso/tema1/#fase3')")
+          .himg1.p-4
+            h1.mb-5 03
+            h4 Fase 3. Costos país de destino
+    .row.justify-content-between.mb-5
+      .col-auto
+        h3#fase1 Fase 1. Costos país de origen
+      .col-lg-1
+        a(:href="obtenerLink('#/curso/tema1/#fases')")
+          img(src='@/assets/curso/up.svg' alt='Imagen relacionada' style='max-width:38px').mx-auto
     p.mb-5 Teniendo presente que el comercio internacional implica cambios en la presentación de los productos, las empresas exportadoras deben tener en su presupuesto de exportación modificaciones a los sistemas de empaques, embalajes y etiquetado de los productos, en estos ítems inicia el costeo de aquellos productos objeto de exportación, anexo a los ítems mencionados. Los demás componentes de la primera fase son:
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Fase 1. Costos directos en el país exportador")
-        h4 Fase 1. Costos directos en el país exportador
+    TabsA.color-secundario.mb-5
+      .tarjeta.color-primario--op12.p-4(titulo="Fase 1. Costos directos en el país exportador")
+        h3 Fase 1. Costos directos en el país exportador
         ul.lista-ul
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Unitarización de la carga.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Manipulación de la mercancía en el local o plantación del exportador, según sea la ubicación de la misma.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Documentación. En este punto el exportador debe apoyarse en la clasificación arancelaria de la mercancía e identificar todos los requerimientos, documentos propios de la exportación teniendo presente la naturaleza de la mercancía.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Transporte interno o nacional de la mercancía, hasta el punto de embarque.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Almacenamiento de la carga. No todos los empresarios contemplan este ítem, pero en los sistemas de costeo por absorción hay más probabilidad de incluir todos estos costos al producto.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Manipulación previa al embarque.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Manipuleo de la carga en el proceso de embarque.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Costos bancarios o financieros. Estos están implícitos en la operación y son tan variables, como las condiciones o cláusulas del contrato de compra venta.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.cs.ms-4
             | Intermediarios aduaneros y/o agentes comisionistas.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Fase 1. Costos indirectos en el país exportador")
+      .tarjeta.color-primario--op12.p-4(titulo="Fase 1. Costos indirectos en el país exportador")
         h4 Fase 1. Costos indirectos en el país exportador
         .row.align-items-center
           .col-lg-7
             ul.lista-ul
               li 
-                i.fas.fa-check
+                i.fas.fa-check.cs.ms-4
                 p Administrativos. Estos deben estar relacionados con el proceso exportador.
               li 
-                i.fas.fa-check
+                i.fas.fa-check.cs.ms-4
                 p Costo de inventario. Este costo se recomienda más para aquellas operaciones cuyos destinos conlleven al uso de trayectos largos, pero puede ser utilizado en todo tipo de operaciones de comercio exterior.
               li 
-                i.fas.fa-check
+                i.fas.fa-check.cs.ms-4
                 p Seguro. Debe tenerse claro que estos seguros son propios del país exportador, aunque hay empresas que tienen contratos de pólizas globales y esto dificulta la asignación de este egreso a cada operación. 
           .col-lg-5(data-aos='fade-left')
             img(src='@/assets/curso/t1/f20.svg' alt='Imagen relacionada')
     .dottedHr
-    h3 Fase 2. Costos tránsito internacional
+    .row.justify-content-between.mb-5
+      .col-auto
+        h3#fase2 Fase 2. Costos tránsito internacional
+      .col-lg-1
+        a(:href="obtenerLink('#/curso/tema1/#fases')")
+          img(src='@/assets/curso/up.svg' alt='Imagen relacionada' style='max-width:38px').mx-auto
     p.mb-5 Los desembolsos realizados para esta fase son realizados antes o después del trayecto internacional, según los términos de negociación internacional pactado en el contrato de compraventa, teniendo en cuenta:
     .col-lg-10.mx-auto.mb-5
       .row
@@ -289,30 +302,35 @@
           .tarjeta-avatar-b.mb-5(data-aos='flip-left')
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/t1/f21.svg' alt='Icono con forma de billete')
-            .tarjeta.tarjeta--azul
+            .tarjeta.h11rem.fcs25.bg-tarjetas
               .p-4 
                 p <b>Transporte internacional.</b> Incluye todos los modos de transporte, incluso el multimodal.
           .tarjeta-avatar-b.mb-5(data-aos='flip-left')
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/t1/f21.svg' alt='Icono con forma de billete')
-            .tarjeta.tarjeta--azul
+            .tarjeta.h11rem.fcs25.bg-tarjetas
               .p-4 
                 p <b>Seguro internacional.</b>
         .col-lg-6
           .tarjeta-avatar-b.mb-5(data-aos='flip-left')
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/t1/f21.svg' alt='Icono con forma de billete')
-            .tarjeta.tarjeta--azul
+            .tarjeta.h11rem.fcs25.bg-tarjetas
               .p-4 
                 p Manipulación de la mercancía para su desembarque en el puerto de destino o en los transbordos internacionales.
           .tarjeta-avatar-b.mb-5(data-aos='flip-left')
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/t1/f21.svg' alt='Icono con forma de billete')
-            .tarjeta.tarjeta--azul
+            .tarjeta.h11rem.fcs25.bg-tarjetas
               .p-4 
                 p <b>Costo de inventario.</b> Este costo se recomienda más para aquellas operaciones cuyos destinos conlleven al uso de trayectos largos, pero puede ser utilizado en todo tipo de operaciones de comercio exterior.
     .dottedHr
-    h3 Fase 3. Costos país de destino
+    .row.justify-content-between.mb-5
+      .col-auto
+        h3#fase3 Fase 3. Costos país de destino
+      .col-lg-1
+        a(:href="obtenerLink('#/curso/tema1/#fases')")
+          img(src='@/assets/curso/up.svg' alt='Imagen relacionada' style='max-width:38px').mx-auto
     p.mb-5 Se refiere a aquel grupo de manipulaciones que la mercancía “sufre” a su llegada a la terminal de descarga o hinterland, para ser descargada y desestibada en el medio de transporte. Esto acarrea una serie de costos de manera directa e indirecta, los cuales se presentan a continuación:
     .row.align-items-center
       .col-lg-5(data-aos='fade-right')
@@ -422,44 +440,45 @@
         .anexo__texto
           p <b>Anexo.</b> Señalizacion_transporte_mercancia_peligrosa
     p.mb-5 Además de la carga general, a granel y peligrosa, se encuentran otros tipos de carga como puede verse a continuación:
+  
     .col-lg-11.px-5.mx-auto.mb-5
-      .contenedor.bbg
-        .row.justify-content-between
-          .col-lg-5(data-aos='flip-left')
-            .tarjeta-avatar
-              img(src='@/assets/curso/t1/f43.svg' alt='AvatarTop')
-              .tarjeta.color-primario.fucsia
-                .p-4.text-center
-                  h3 Carga perecedera
-                  p Es toda aquella carga cuyo tiempo de vida es muy limitado, el inadecuado manejo de la misma afecta la calidad, las propiedades y la presentación de los productos, haciéndolos incluso no aptos para el consumo, dentro de este tipo de carga están las frutas, las carnes, las verduras, entre otros. Este tipo de carga es uno de los más sensibles en la cadena, ya que los modos de transporte deben ser ágiles e incluso se debe tener condiciones de refrigeración o congelación de la carga.
-          .col-lg-5(data-aos='flip-left')
-            .tarjeta-avatar
-              img(src='@/assets/curso/t1/f44.svg' alt='AvatarTop')
-              .tarjeta.color-primario.fucsia
-                .p-4.text-center
-                  h3 Carga frágil
-                  p Es aquella que por su naturaleza requiere un manejo diferenciado, especial, todo a raíz de su naturaleza delicada, esta a diferencia de la perecedera, no tiene fecha de vencimiento, e incluso pueden ser transportada en condiciones climáticas normales, no requieren de refrigeración, pero el empaque, el embalaje y las instrucciones de manipulación, son muy claras y detalladas, ya que esta carga es sensible a los impactos, o a los movimientos bruscos del medio de transporte.
+      .row.justify-content-between
+        .col-lg-5(data-aos='flip-left')
+          .tarjeta-avatar
+            img(src='@/assets/curso/t1/f43.svg' alt='AvatarTop')
+            .bordeSuperior.cac.fblanco.bg-tarjetas2
+              .p-4.text-center
+                h3 Carga perecedera
+                p Es toda aquella carga cuyo tiempo de vida es muy limitado, el inadecuado manejo de la misma afecta la calidad, las propiedades y la presentación de los productos, haciéndolos incluso no aptos para el consumo, dentro de este tipo de carga están las frutas, las carnes, las verduras, entre otros. Este tipo de carga es uno de los más sensibles en la cadena, ya que los modos de transporte deben ser ágiles e incluso se debe tener condiciones de refrigeración o congelación de la carga.
+        .col-lg-5(data-aos='flip-left')
+          .tarjeta-avatar
+            img(src='@/assets/curso/t1/f44.svg' alt='AvatarTop')
+            .bordeSuperior.cac.fblanco.bg-tarjetas2
+              .p-4.text-center
+                h3 Carga frágil
+                p Es aquella que por su naturaleza requiere un manejo diferenciado, especial, todo a raíz de su naturaleza delicada, esta a diferencia de la perecedera, no tiene fecha de vencimiento, e incluso pueden ser transportada en condiciones climáticas normales, no requieren de refrigeración, pero el empaque, el embalaje y las instrucciones de manipulación, son muy claras y detalladas, ya que esta carga es sensible a los impactos, o a los movimientos bruscos del medio de transporte.
     p.mb-5 Hay otros tipos de carga de acuerdo a la naturaleza de sus productos o al empaque que la contiene, así como sus dimensiones y el volumen. Esta es:
-    .row.mb-5
-      .col-lg-6
-        h3 Carga especial
-        .cajon-b.color-acento-contenido.p-4.mb-4
-          p.mb-0 Este tipo de carga se caracteriza por tener dimensiones y pesos grandes o carga muy voluminosa, sus dimensiones se salen de los parámetros ordinarios y su manejo requiere de equipos especiales y de una logística diferenciada. Ejemplo de carga especial, pueden ser los grandes vehículos, los animales grandes o las retroexcavadoras.
-        p Finalmente, frente al tipo de carga y la naturaleza de los productos, la elección de los empaques y embalajes de los mismos, se debe realizar de manera cuidadosa, buscando que el producto cumpla sus funciones frente al consumidor y dar respuesta exacta a la promesa de valor del mismo, es por ello que en el mercado existen una serie de materiales para empaques que ayudan a que los productos, dentro del proceso logístico, cumpla con su promesa de valor y su naturaleza sea para el consumidor lo que inicialmente se proyecta.
-      .col-lg-6
-        #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
-          .carousel-indicators
-            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Carga especial')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Carga especial')
-          .carousel-inner
-            .carousel-item.active
-              figure
-                img(src='@/assets/curso/t1/f45.svg' alt='Carga especial')
-                figcaption Carga especial
-            .carousel-item
-              figure
-                img(src='@/assets/curso/t1/f45b.svg' alt='Carga especial')
-                figcaption Carga especial
+    .contenedorTraslapeSuperior.fcac10
+      .row.mb-5
+        .col-lg-6
+          h3 Carga especial
+          .cajon-b.color-acento-contenido.p-4.mb-4
+            p.mb-0 Este tipo de carga se caracteriza por tener dimensiones y pesos grandes o carga muy voluminosa, sus dimensiones se salen de los parámetros ordinarios y su manejo requiere de equipos especiales y de una logística diferenciada. Ejemplo de carga especial, pueden ser los grandes vehículos, los animales grandes o las retroexcavadoras.
+          p Finalmente, frente al tipo de carga y la naturaleza de los productos, la elección de los empaques y embalajes de los mismos, se debe realizar de manera cuidadosa, buscando que el producto cumpla sus funciones frente al consumidor y dar respuesta exacta a la promesa de valor del mismo, es por ello que en el mercado existen una serie de materiales para empaques que ayudan a que los productos, dentro del proceso logístico, cumpla con su promesa de valor y su naturaleza sea para el consumidor lo que inicialmente se proyecta.
+        .col-lg-6
+          #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
+            .carousel-indicators
+              button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Carga especial')
+              button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Carga especial')
+            .carousel-inner
+              .carousel-item.active
+                figure
+                  img(src='@/assets/curso/t1/f45.svg' alt='Carga especial')
+                  figcaption Carga especial
+              .carousel-item
+                figure
+                  img(src='@/assets/curso/t1/f45b.svg' alt='Carga especial')
+                  figcaption Carga especial
     Separador
     #t_1_5.titulo-secundario
       h2 1.5 Operadores logísticos en la CDFI
@@ -467,64 +486,62 @@
     .col-lg-10.mx-auto.mb-5
       .row
         .col-lg-6(data-aos='flip-left')
-          .crd_01
-            .crd_01__icon
+          .tarjeta-numerada.p-5.fcac25.bg-tarjetas2.noborder
+            .tarjeta-numerada__numero
               img(src="@/assets/curso/t1/f46.svg", alt="personas sosteniendo edificación").class          
-            .crd_01__txt
-              h4 Entidades privadas
-              ul.lista-ul
-                li 
-                  i.fas.fa-check
-                  | La empresa exportadora
-                li 
-                  i.fas.fa-check
-                  | La empresa importadora
-                li 
-                  i.fas.fa-check
-                  | Las empresas de transporte de carga, tanto en el país de origen, en el tránsito internacional y en el país de destino.
-                li 
-                  i.fas.fa-check
-                  | Las aseguradoras en cada una de las fases de la cadena o en la operación global.
-                li 
-                  i.fas.fa-check
-                  | Las entidades bancarias y financieras.
-                li 
-                  i.fas.fa-check
-                  | Agentes de aduana.
-                li 
-                  i.fas.fa-check
-                  | Comisionistas o comercializadoras internacionales.
+            h4 Entidades privadas
+            ul.lista-ul
+              li 
+                i.fas.fa-check
+                | La empresa exportadora
+              li 
+                i.fas.fa-check
+                | La empresa importadora
+              li 
+                i.fas.fa-check
+                | Las empresas de transporte de carga, tanto en el país de origen, en el tránsito internacional y en el país de destino.
+              li 
+                i.fas.fa-check
+                | Las aseguradoras en cada una de las fases de la cadena o en la operación global.
+              li 
+                i.fas.fa-check
+                | Las entidades bancarias y financieras.
+              li 
+                i.fas.fa-check
+                | Agentes de aduana.
+              li 
+                i.fas.fa-check
+                | Comisionistas o comercializadoras internacionales.
         .col-lg-6(data-aos='flip-left')
-          .crd_01
-            .crd_01__icon
-              img(src="@/assets/curso/t1/f46.svg", alt="personas sosteniendo edificación").class          
-            .crd_01__txt
-              h4 Entidades públicas
-              ul.lista-ul
-                li 
-                  i.fas.fa-check
-                  | DIAN
-                li 
-                  i.fas.fa-check
-                  | Policía
-                li 
-                  i.fas.fa-check
-                  | ICA
-                li 
-                  i.fas.fa-check
-                  | Ministerios
-                li 
-                  i.fas.fa-check
-                  | INVIMA
-                li 
-                  i.fas.fa-check
-                  | Depósitos públicos (aduaneros)
-                li 
-                  i.fas.fa-check
-                  | Sociedades portuarias. Pueden ser mixtas.
-                li 
-                  i.fas.fa-check
-                  | Operadores portuarios. Pueden ser mixtas.
+          .tarjeta-numerada.p-5.fcac25.bg-tarjetas2.noborder
+            .tarjeta-numerada__numero
+                img(src="@/assets/curso/t1/f46.svg", alt="personas sosteniendo edificación")
+            h4 Entidades públicas
+            ul.lista-ul
+              li 
+                i.fas.fa-check
+                | DIAN
+              li 
+                i.fas.fa-check
+                | Policía
+              li 
+                i.fas.fa-check
+                | ICA
+              li 
+                i.fas.fa-check
+                | Ministerios
+              li 
+                i.fas.fa-check
+                | INVIMA
+              li 
+                i.fas.fa-check
+                | Depósitos públicos (aduaneros)
+              li 
+                i.fas.fa-check
+                | Sociedades portuarias. Pueden ser mixtas.
+              li 
+                i.fas.fa-check
+                | Operadores portuarios. Pueden ser mixtas.
     .row.align-items-center
       .col-lg-4(data-aos='fade-right')
         img(src="@/assets/curso/t1/f47.svg", alt="imagen relacionada")

@@ -1,13 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="470.391" height="355.422" viewBox="0 0 470.391 355.422">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="Rectángulo_33832" data-name="Rectángulo 33832" width="470" height="237" rx="21" fill="#fff"/>
-    </clipPath>
-  </defs>
-  <g id="Grupo_102551" data-name="Grupo 102551" transform="translate(-319.609 -9306)">
-    <rect id="Rectángulo_33865" data-name="Rectángulo 33865" width="470.391" height="355.422" rx="21" transform="translate(319.609 9306)" fill="#36a3f7" opacity="0.242"/>
-    <g id="Enmascarar_grupo_48" data-name="Enmascarar grupo 48" transform="translate(320 9424.422)" opacity="0.251" clip-path="url(#clip-path)">
-      <rect id="Rectángulo_33873" data-name="Rectángulo 33873" width="298" height="276" rx="17" transform="translate(296.393 71.122) rotate(17)" fill="#36a3f7"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 470.4 355.4" style="enable-background:new 0 0 470.4 355.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.251;}
+	.st1{fill:#36A3F7;}
+</style>
+<g id="Grupo_102551" transform="translate(-319.609 -9306)">
+	<g>
+		<g id="Enmascarar_grupo_48" transform="translate(320 9424.422)" class="st0">
+			<path id="Rectángulo_33873" class="st1" d="M312.7,76.1l252.5,77.2c9,2.7,14,12.2,11.3,21.2l-70.8,231.4
+				c-2.7,9-12.2,14-21.2,11.3L232,340c-9-2.7-14-12.2-11.3-21.2l70.8-231.4C294.2,78.4,303.7,73.3,312.7,76.1z"/>
+		</g>
+	</g>
+</g>
 </svg>

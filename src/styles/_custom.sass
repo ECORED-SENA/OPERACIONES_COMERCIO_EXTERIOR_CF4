@@ -40,6 +40,9 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 .fcs
   background-color: $color-secundario !important
 
+.fcs25
+  background-color: rgba(69,25,145,.25) !important
+
 .cajon-b.color-acento-contenido
   &::before
     background-color: #36A3F7
@@ -61,6 +64,12 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 .fcac10
   background-color: rgba(54,163,247,.1)
 
+.fcac25
+  background-color: rgba(54,163,247,.25)
+
+.noborder
+  border: none !important
+
 @media screen and ( min-width: 991px)
   .contenedorTraslapeInferior
     margin-top: -3rem
@@ -69,5 +78,83 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     margin-bottom: -18rem
     padding: 3rem 3rem 18rem 3rem
 
+  .contenedorTraslapeSuperior
+    margin-top: -18rem
+    margin-left: -3rem
+    margin-right: -3rem
+    padding: 18rem 3rem 3rem 3rem
+
 .cajon.color-primario, .fcp25
   background-color: rgba(220,156,232,.25) !important
+
+.tarjeta-avatar
+  .bordeSuperior.cac
+    display: inline-block
+    padding-top: 60px !important
+    height: 100%
+    border-top: 5px solid $color-acento-contenido
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.25)
+
+.fblanco
+  background-color: $white !important
+
+.bg-tarjetas
+  background-image: url(../assets/curso/bg-tarjetas.svg)
+  background-position: bottom right
+  background-size: contain
+  background-repeat: no-repeat
+
+.bg-tarjetas2
+  background-image: url(../assets/curso/bg-tarjetas2.svg)
+  background-position: bottom right
+  background-size: contain
+  background-repeat: no-repeat
+
+.cajon-b.color-primario
+  &::before
+    background-color: $fucsia
+    opacity: .17
+
+.himg1
+  min-width: 320px
+  min-height: 160px
+  background-image: url(../assets/curso/lb-bg.svg)
+  background-repeat: no-repeat
+  transition: .25s
+  background-position: top right
+  margin-bottom: 1rem
+  border-radius: 1rem
+  background-size: cover
+  h1
+    color: #C4C8CE
+  &:hover
+    background-image: url(../assets/curso/lb-bg-hover.svg)
+    h1
+      color: #6D4BA9
+    h4
+      color: $white
+
+.tarjeta.color-primario--op12
+  background-color: rgba(220,156,232,.12) !important
+
+.tabs-a__tab
+  background-color: #e8e8e8 !important
+  &__selected, &:hover
+    background-color: $color-secundario !important
+
+.dottedHr
+  border-bottom: dashed 2px $color-acento-contenido
+  width: 88%
+  margin: 1.5rem auto
+
+.h11rem
+  min-height: 11rem
+
+.tabs-c__tab--active
+  font-weight: 700
+
+.slyder__btn
+  &:hover
+    background-color: $color-secundario !important
+    i
+      filter: invert(1)
