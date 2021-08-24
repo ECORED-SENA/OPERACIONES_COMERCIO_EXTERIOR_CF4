@@ -87,7 +87,7 @@
       .col-lg-7
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 Los CIF, son un elemento clave de los procesos productivos empresariales, aplica para las empresas productoras, comercializadoras y de servicios, al igual que las de extracción, pero no son de fácil asignación, o identificación, y no hacen parte del producto.
-        p Existen otros egresos que no hacen parte del proceso productivo de la empresa, pero que al igual que los CIF, son fundamentales para el funcionamiento de la misma, estos egresos se denominan los gastos y están relacionados con los procesos administrativos, de marketing, ventas y publicidad. Un ejemplo de gastos es:
+        p Existen otros egresos que no hacen parte del proceso productivo de la empresa, pero que al igual que los CIF, son fundamentales para el funcionamiento de la misma, estos egresos se denominan los gastos y están relacionados con los procesos administrativos, de <em>marketing</em>, ventas y publicidad. Un ejemplo de gastos es:
         ul.lista-ul
           li 
             i.fas.fa-check.cs.ms-5
@@ -106,7 +106,7 @@
       figure(data-aos='fade-right')
         img(src='@/assets/curso/t1/f6.svg' alt='imagen relacionada').mb-4
         //figcaption Nota. Imágenes tomadas de: <a href="https://privesasofom.mx/v2/wp-content/uploads/2020/08/GFGV-1-1024x879.jpg" target="_blank">privesasofom.mx</a>, <a href="https://definanzas.com/wp-content/uploads/2011/01/que-son-los-gastos-variables-senor-pensando-en-distintos-gastos.png" target="_blank">definanzas.com</a>, <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGGcGzNVMRGgP_U-82XE7iWS4yCW8jDazxg&usqp=CAU" target="_blank">gstatic.com</a>.
-    p Los costos fijos en la empresa son aquellos que no varían con los cambios en el volumen de las ventas o con el nivel de producción. Los costos fijos se producen, se efectúe o no la producción o la venta, o se realice o no la actividad económica de la empresa.
+    p Los <b>costos fijos</b> en la empresa son aquellos que no varían con los cambios en el volumen de las ventas o con el nivel de producción. Los costos fijos se producen, se efectúe o no la producción o la venta, o se realice o no la actividad económica de la empresa.
     p.cac Algunos ejemplos de costos fijos son:
     ul.lista-ul
       li
@@ -193,7 +193,7 @@
                   p Este sistema de costos se centra más en el proceso productivo, busca atender la demanda masiva de los bienes en el mercado y son más utilizados por las grandes empresas cuyo mercado objetivo es de consumo masivo.
     p.mb-5 La teoría de costos en el mercado es mucho más amplia y toca ramas del conocimiento como: la contabilidad, las matemáticas, la estadística, entre otras. Los temas tratados al respecto son introductorios, esto con el fin de comprender de la mejor manera, los temas relacionados al costeo de la Cadena de Distribución Física Internacional.
     Separador
-    #t_1_2.titulo-secundario
+    #t_1_3.titulo-secundario
       h2 1.3 Estructura de una matriz de costos en la CDFI
     .cajon-b.color-acento-contenido.p-4.mb-4
       p.mb-0 El proceso de costos aplicados a la Cadena de Distribución Física Internacional es la composición de dos áreas del conocimiento; una de ellas está relacionada con la logística y la otra con la contabilidad administrativa, dentro de esta última se encuentra la contabilidad de costos y la teoría de costos, así como sus principales componentes, temas de los que ya hemos realizado una breve conceptualización, ahora se podrá apreciar la temática relacionado con la logística.
@@ -201,7 +201,7 @@
       .col-lg-5(data-aos='fade-right')
         img(src='@/assets/curso/t1/f18.svg' alt='Imagen relacionada')
       .col-lg-7
-        p Cuando se habla del término logística, se habla de aquellas actividades operativas encargadas de llevar las mercancías desde un punto inicial, que puede ser la fábrica o una plantación, hasta al consumidor final, buscando minimizar los tiempos de entrega, de costos y gastos, y ante todo conservando la integridad del producto. De esta manera, la logística ayuda a que el consumidor final tenga en sus manos un producto de óptima calidad o bien la empresa transformadora o comercializadora, y que se realicen las entregas en el momento oportuno, conocido como: Just On Time (justo a tiempo). 
+        p Cuando se habla del término logística, se habla de aquellas actividades operativas encargadas de llevar las mercancías desde un punto inicial, que puede ser la fábrica o una plantación, hasta al consumidor final, buscando minimizar los tiempos de entrega, de costos y gastos, y ante todo conservando la integridad del producto. De esta manera, la logística ayuda a que el consumidor final tenga en sus manos un producto de óptima calidad o bien la empresa transformadora o comercializadora, y que se realicen las entregas en el momento oportuno, conocido como: <em>Just On Time</em> (justo a tiempo). 
         p Ahora bien, en las operaciones de comercio internacional, la logística conserva su esencia; es decir, busca exactamente lo mismo que en el mercado local, regional o nacional, pero su nivel de complejidad es más amplio y para su correcta administración, se hace necesario estudiarla desde tres fases: 
         ul.lista-ul
           li
@@ -331,7 +331,7 @@
       .col-lg-1
         a(:href="obtenerLink('#/curso/tema1/#fases')")
           img(src='@/assets/curso/up.svg' alt='Imagen relacionada' style='max-width:38px').mx-auto
-    p.mb-5 Se refiere a aquel grupo de manipulaciones que la mercancía “sufre” a su llegada a la terminal de descarga o hinterland, para ser descargada y desestibada en el medio de transporte. Esto acarrea una serie de costos de manera directa e indirecta, los cuales se presentan a continuación:
+    p.mb-5 Se refiere a aquel grupo de manipulaciones que la mercancía “sufre” a su llegada a la terminal de descarga o <em>hinterland</em>, para ser descargada y desestibada en el medio de transporte. Esto acarrea una serie de costos de manera directa e indirecta, los cuales se presentan a continuación:
     .row.align-items-center
       .col-lg-5(data-aos='fade-right')
         img(src='@/assets/curso/t1/f22.svg' alt='Imagen relacionada')
@@ -353,7 +353,7 @@
                 | Aduaneros. Se deben incluir los impuestos, derechos o cualquier otro egreso en el que se deba incurrir para poder realizar la importación de la carga.
               li 
                 i.fas.fa-check
-                | Agentes o brokers. Incluye comisionistas y agentes de aduana.
+                | Agentes o <em>brokers</em>. Incluye comisionistas y agentes de aduana.
               li 
                 i.fas.fa-check
                 | Bancario y/o financieros.
@@ -579,19 +579,20 @@ export default {
         titulo:
           'Clase 4. Materias sólidas inflamables, materias autorreactivas y materias explosivas desensibilizadas sólidas',
         texto:
-          'Materias que pueden experimentar inflamación espontánea<br>Materias que en contacto con el agua desprenden gases inflamables',
+          '<i class="fas fa-check ms-4 cs"></i>  Materias que pueden experimentar inflamación espontánea<br><i class="fas fa-check ms-4 cs"></i>  Materias que en contacto con el agua desprenden gases inflamables',
         imagen: require('@/assets/curso/t1/f36.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Clase 5. Agentes oxidantes y peróxidos orgánicos',
-        texto: 'Materias comburentes<br>Peróxidos orgánicos',
+        texto:
+          '<i class="fas fa-check ms-4 cs"></i>  Materias comburentes<br>Peróxidos orgánicos',
         imagen: require('@/assets/curso/t1/f37.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Clase 6. Materias tóxicas',
-        texto: 'Materias infecciosas',
+        texto: '<i class="fas fa-check ms-4 cs"></i>  Materias infecciosas',
         imagen: require('@/assets/curso/t1/f38.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

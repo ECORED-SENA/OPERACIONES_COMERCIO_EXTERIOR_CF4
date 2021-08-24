@@ -103,9 +103,9 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Arancel',
+      termino: 'Arancel <em>advaloren</em>',
       significado:
-        'advaloren	es un derecho que pagan por importaciones, su valor puede ser porcentual y está identificado en el arancel de aduanas.',
+        'es un derecho que pagan por importaciones, su valor puede ser porcentual y está identificado en el arancel de aduanas.',
     },
     {
       termino: 'Cambios',
@@ -213,13 +213,13 @@ export default {
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+      },*/
       {
-        nombre: 'Nombre',
+        nombre: 'María Camila Ovalle Ospina',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {
