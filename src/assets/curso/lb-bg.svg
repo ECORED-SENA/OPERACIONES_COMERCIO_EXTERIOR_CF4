@@ -1,22 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="161" viewBox="0 0 400 161">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="Rectángulo_33832" data-name="Rectángulo 33832" width="400" height="161" fill="#fff"/>
-    </clipPath>
-    <filter id="Rectángulo_33828" x="78.648" y="-183.778" width="394.878" height="333.846" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="15" result="blur"/>
-      <feFlood flood-opacity="0.129"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="Grupo_102530" data-name="Grupo 102530" transform="translate(-1020 -10070.237)">
-    <rect id="Rectángulo_33825" data-name="Rectángulo 33825" width="400" height="161" transform="translate(1020 10070.237)" fill="#f6f6f6"/>
-    <g id="Enmascarar_grupo_48" data-name="Enmascarar grupo 48" transform="translate(1020 10070.237)" clip-path="url(#clip-path)">
-      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_33828)">
-        <rect id="Rectángulo_33828-2" data-name="Rectángulo 33828" width="265.117" height="163" rx="18" transform="translate(123.65 -51.1) rotate(-20)" fill="#451991"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 161" style="enable-background:new 0 0 400 161;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F6F6F6;}
+	.st1{fill:#451991;}
+</style>
+<path class="st0" d="M173.2,85.2L142.2,0H0v161h400V21.8L196.3,95.9C187,99.3,176.6,94.5,173.2,85.2z"/>
+<path class="st1" d="M142.2,0l31,85.2c3.4,9.3,13.7,14.2,23.1,10.8L400,21.8V0H142.2z"/>
 </svg>

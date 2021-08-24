@@ -100,7 +100,7 @@
             | Pago de nómina de personal administrativo
         p Los costos hacen parte de lo que se denomina la contabilidad administrativa y dentro de esta se puede encontrar la contabilidad de costos, la cual ayuda a los empresarios en los procesos de toma de decisiones; decisiones que van desde la identificación de la base para proyectar el precio de venta de un producto en el mercado, hasta la identificación de nuevos proveedores que se ajusten a las políticas de la empresa y los requerimientos del mercado. Es por ello que tener en la empresa un adecuado sistema de costos, se convierte en la mejor herramienta para apoyar los procesos de toma de decisiones empresariales.
     p.mb-5 Para el manejo acertado de los costos empresariales, se ha identificado una clasificación según el volumen de producción, la cual queda definida de la siguiente manera:
-    .col-lg-7.mx-auto.mb-5
+    .col-lg-8.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
         span Clasificación de los gastos en las empresas
       figure(data-aos='fade-right')
@@ -145,7 +145,8 @@
           .col-lg-7
             p Se entiende como la sumatoria de todos los costos requeridos para obtener un producto. El costo total de producción se estima como el costo fijo, más el costo variable, por las cantidades producidas.
             p Fórmula del costo total de producción:
-            p CTP = Costo fijo + (Costo variables X unidades producidas)
+            .cajon.color-acento-contenido.p-4
+              h4.mb-0 CTP = Costo fijo + (Costo variables X unidades producidas)
           .col-lg-5(data-aos='fade-left')
             img(src='@/assets/curso/t1/f13.svg' alt='imagen relacionada').mb-4
       .py-4.py-md-5(titulo="Costos controlables" :icono="require('@/assets/curso/t1/f10.svg')")
@@ -160,7 +161,7 @@
     .contenedorTraslapeInferior.fcac10
       .row.align-items-center.mb-4
         .col-lg-5
-          img(src='@/assets/curso/t1/f15.svg' alt='imagen relacionada').mb-4
+          img(src='@/assets/curso/t1/f15.png' alt='imagen relacionada').mb-4
         .col-lg-7
           h3 Recomendación empresarial
           .cajon-b.p-4.color-primario
@@ -199,7 +200,7 @@
       p.mb-0 El proceso de costos aplicados a la Cadena de Distribución Física Internacional es la composición de dos áreas del conocimiento; una de ellas está relacionada con la logística y la otra con la contabilidad administrativa, dentro de esta última se encuentra la contabilidad de costos y la teoría de costos, así como sus principales componentes, temas de los que ya hemos realizado una breve conceptualización, ahora se podrá apreciar la temática relacionado con la logística.
     .row.align-items-center.mb-5
       .col-lg-5(data-aos='fade-right')
-        img(src='@/assets/curso/t1/f18.svg' alt='Imagen relacionada')
+        img(src='@/assets/curso/t1/f18.png' alt='Imagen relacionada')
       .col-lg-7
         p Cuando se habla del término logística, se habla de aquellas actividades operativas encargadas de llevar las mercancías desde un punto inicial, que puede ser la fábrica o una plantación, hasta al consumidor final, buscando minimizar los tiempos de entrega, de costos y gastos, y ante todo conservando la integridad del producto. De esta manera, la logística ayuda a que el consumidor final tenga en sus manos un producto de óptima calidad o bien la empresa transformadora o comercializadora, y que se realicen las entregas en el momento oportuno, conocido como: <em>Just On Time</em> (justo a tiempo). 
         p Ahora bien, en las operaciones de comercio internacional, la logística conserva su esencia; es decir, busca exactamente lo mismo que en el mercado local, regional o nacional, pero su nivel de complejidad es más amplio y para su correcta administración, se hace necesario estudiarla desde tres fases: 
@@ -220,9 +221,9 @@
     p.mb-5 Como se indicaba antes, cada una de las fases o etapas involucradas en las operaciones de comercio internacional, conllevan un grado de complejidad, tal como podemos ver a continuación:
     .row.mb-5#fases
       .col-lg-8(data-aos='fade-right')
-        img(src='@/assets/curso/t1/f19.svg' alt='Imagen relacionada')
+        img(src='@/assets/curso/t1/f19.jpg' alt='Imagen relacionada')
       .col-lg-4
-        a(:href="obtenerLink('#/curso/tema1/#fase1')")
+        a(href='#/curso/tema1/#fase1')
           .himg1.p-4
             h1.mb-5 01
             h4 Fase 1. Costos país de origen
@@ -287,7 +288,7 @@
                 i.fas.fa-check.cs.ms-4
                 p Seguro. Debe tenerse claro que estos seguros son propios del país exportador, aunque hay empresas que tienen contratos de pólizas globales y esto dificulta la asignación de este egreso a cada operación. 
           .col-lg-5(data-aos='fade-left')
-            img(src='@/assets/curso/t1/f20.svg' alt='Imagen relacionada')
+            img(src='@/assets/curso/t1/f20.png' alt='Imagen relacionada')
     .dottedHr
     .row.justify-content-between.mb-5
       .col-auto
@@ -479,6 +480,12 @@
                 figure
                   img(src='@/assets/curso/t1/f45b.svg' alt='Carga especial')
                   figcaption Carga especial
+            button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+              span.carousel-control-prev-icon(aria-hidden='true')
+              span.visually-hidden Previous
+            button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+              span.carousel-control-next-icon(aria-hidden='true')
+              span.visually-hidden Next
     Separador
     #t_1_5.titulo-secundario
       h2 1.5 Operadores logísticos en la CDFI

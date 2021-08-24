@@ -118,7 +118,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 .himg1
   min-width: 320px
   min-height: 160px
-  background-image: url(../assets/curso/lb-bg.svg)
+  background-image: url(../assets/curso/lb-bg.jpg)
   background-repeat: no-repeat
   transition: .25s
   background-position: top right
@@ -128,7 +128,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
   h1
     color: #C4C8CE
   &:hover
-    background-image: url(../assets/curso/lb-bg-hover.svg)
+    background-image: url(../assets/curso/lb-bg-hover.jpg)
     h1
       color: #6D4BA9
     h4
@@ -158,3 +158,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     background-color: $color-secundario !important
     i
       filter: invert(1)
+
+button:hover, button:focus, [type='button']:hover, [type='button']:focus, [type='reset']:hover, [type='reset']:focus, [type='submit']:hover, [type='submit']:focus
+  background-color: $color-secundario
+  color: #12263F
