@@ -103,7 +103,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Arancel <em>advaloren</em>',
+      termino: 'Arancel advaloren',
       significado:
         'es un derecho que pagan por importaciones, su valor puede ser porcentual y está identificado en el arancel de aduanas.',
     },

@@ -354,7 +354,7 @@
                 | Aduaneros. Se deben incluir los impuestos, derechos o cualquier otro egreso en el que se deba incurrir para poder realizar la importación de la carga.
               li 
                 i.fas.fa-check
-                | Agentes o <em>brokers</em>. Incluye comisionistas y agentes de aduana.
+                p Agentes o <em>brokers</em>. Incluye comisionistas y agentes de aduana.
               li 
                 i.fas.fa-check
                 | Bancario y/o financieros.
