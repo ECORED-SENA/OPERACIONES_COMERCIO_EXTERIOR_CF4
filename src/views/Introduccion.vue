@@ -11,7 +11,7 @@
     p.mb-5 El componente formativo sobre la matriz de costos de la Cadena de Distribución Física Internacional (CDFI), es un tema articulador en el programa Técnico Laboral en Operaciones de Comercio Exterior, lo invitamos a ver el siguiente vídeo, que estamos seguros le permitirá contextualizar los contenidos de este componente:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/O38npBDndmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       //figcaption Video: Leyenda del video
 
 </template>
