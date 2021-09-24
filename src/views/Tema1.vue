@@ -223,15 +223,15 @@
       .col-lg-8(data-aos='fade-right')
         img(src='@/assets/curso/t1/f19.jpg' alt='Imagen relacionada')
       .col-lg-4
-        a(href='#/curso/tema1/#fase1')
+        a(@click="goToElement('fase1')")
           .himg1.p-4
             h1.mb-5 01
             h4 Fase 1. Costos país de origen
-        a(:href="obtenerLink('#/curso/tema1/#fase2')")
+        a(@click="goToElement('fase2')")
           .himg1.p-4
             h1.mb-5 02
             h4 Fase 2. Costos tránsito internacional
-        a(:href="obtenerLink('#/curso/tema1/#fase3')")
+        a(@click="goToElement('fase3')")
           .himg1.p-4
             h1.mb-5 03
             h4 Fase 3. Costos país de destino
@@ -239,7 +239,7 @@
       .col-auto
         h3#fase1 Fase 1. Costos país de origen
       .col-lg-1
-        a(:href="obtenerLink('#/curso/tema1/#fases')")
+        a(@click="goToElement('fases')")
           img(src='@/assets/curso/up.svg' alt='Imagen relacionada' style='max-width:38px').mx-auto
     p.mb-5 Teniendo presente que el comercio internacional implica cambios en la presentación de los productos, las empresas exportadoras deben tener en su presupuesto de exportación modificaciones a los sistemas de empaques, embalajes y etiquetado de los productos, en estos ítems inicia el costeo de aquellos productos objeto de exportación, anexo a los ítems mencionados. Los demás componentes de la primera fase son:
     TabsA.color-secundario.mb-5
@@ -294,7 +294,7 @@
       .col-auto
         h3#fase2 Fase 2. Costos tránsito internacional
       .col-lg-1
-        a(:href="obtenerLink('#/curso/tema1/#fases')")
+        a(@click="goToElement('fases')")
           img(src='@/assets/curso/up.svg' alt='Imagen relacionada' style='max-width:38px').mx-auto
     p.mb-5 Los desembolsos realizados para esta fase son realizados antes o después del trayecto internacional, según los términos de negociación internacional pactado en el contrato de compraventa, teniendo en cuenta:
     .col-lg-10.mx-auto.mb-5
@@ -330,7 +330,7 @@
       .col-auto
         h3#fase3 Fase 3. Costos país de destino
       .col-lg-1
-        a(:href="obtenerLink('#/curso/tema1/#fases')")
+        a(@click="goToElement('fases')")
           img(src='@/assets/curso/up.svg' alt='Imagen relacionada' style='max-width:38px').mx-auto
     p.mb-5 Se refiere a aquel grupo de manipulaciones que la mercancía “sufre” a su llegada a la terminal de descarga o <em>hinterland</em>, para ser descargada y desestibada en el medio de transporte. Esto acarrea una serie de costos de manera directa e indirecta, los cuales se presentan a continuación:
     .row.align-items-center
@@ -630,6 +630,13 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    goToElement(id) {
+      const ele = document.getElementById(id)
+      window.scrollTo(ele.offsetLeft, ele.offsetTop + 100)
+      //console.log(ele.offsetTop)
+    },
   },
 }
 </script>
