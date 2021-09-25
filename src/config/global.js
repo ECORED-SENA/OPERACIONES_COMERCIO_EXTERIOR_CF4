@@ -103,7 +103,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Arancel advaloren',
+      termino: 'Arancel ad valoren',
       significado:
         'es un derecho que pagan por importaciones, su valor puede ser porcentual y está identificado en el arancel de aduanas.',
     },
@@ -251,6 +251,16 @@ export default {
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

@@ -424,7 +424,7 @@
     .row.mb-5
       .col-lg-4
         h3 Carga peligrosa
-        p Es toda aquella carga que representa un riesgo para aquellas personas que la manipulen, para el medio de transporte e incluso para el medio ambiente, su manejo tiene protocolos universales implementados por la Organización de las Naciones Unidas y pictogramas que indican cómo debe de ser manipulada o los cuidados que se deben de tener con ella. La ONU, ha definido 9 clases de carga peligrosa, estas son:
+        p Es toda aquella carga que representa un riesgo para aquellas personas que la manipulen, para el medio de transporte e incluso para el medio ambiente, su manejo tiene protocolos universales implementados por la Organización de las Naciones Unidas (ONU) y pictogramas que indican cómo debe de ser manipulada o los cuidados que se deben de tener con ella. La ONU, ha definido 9 clases de carga peligrosa, estas son:
       .col-lg-8(data-aos='fade-left')
         SlyderC.mb-5(:datos="datosSlyder")
     p.mb-5 La clasificación de tipo de carga ha sido establecida de manera internacional, consistiendo en un cuadro informativo, en donde se regula el tipo y clase de carga, así como su alcance en peligro y afectación. Tal como se relaciona a continuación:
@@ -500,10 +500,10 @@
             ul.lista-ul
               li 
                 i.fas.fa-check
-                | La empresa exportadora
+                | La empresa exportadora.
               li 
                 i.fas.fa-check
-                | La empresa importadora
+                | La empresa importadora.
               li 
                 i.fas.fa-check
                 | Las empresas de transporte de carga, tanto en el país de origen, en el tránsito internacional y en el país de destino.
@@ -527,22 +527,22 @@
             ul.lista-ul
               li 
                 i.fas.fa-check
-                | DIAN
+                | DIAN.
               li 
                 i.fas.fa-check
-                | Policía
+                | Policía.
               li 
                 i.fas.fa-check
-                | ICA
+                | ICA.
               li 
                 i.fas.fa-check
-                | Ministerios
+                | Ministerios.
               li 
                 i.fas.fa-check
-                | INVIMA
+                | INVIMA.
               li 
                 i.fas.fa-check
-                | Depósitos públicos (aduaneros)
+                | Depósitos públicos (aduaneros).
               li 
                 i.fas.fa-check
                 | Sociedades portuarias. Pueden ser mixtas.
@@ -593,7 +593,7 @@ export default {
       {
         titulo: 'Clase 5. Agentes oxidantes y peróxidos orgánicos',
         texto:
-          '<i class="fas fa-check ms-4 cs"></i>  Materias comburentes<br>Peróxidos orgánicos',
+          '<i class="fas fa-check ms-4 cs"></i>  Materias comburentes<br><i class="fas fa-check ms-4 cs"></i> Peróxidos orgánicos',
         imagen: require('@/assets/curso/t1/f37.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
